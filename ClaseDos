@@ -17,44 +17,75 @@ public class Programa {
         
         
         
-        Scanner lector = new Scanner(System.in);
-        System.out.print("ingrese primer operando: ");
-        double n1 = lector.nextDouble();
+            Scanner lector = new Scanner(System.in);
+//        System.out.print("ingrese primer operando: ");
+//        double n1 = lector.nextDouble();
+//        
+//        System.out.print("ingrese segundo operando: ");
+//        double n2 = lector.nextDouble(); //es necesario parsear string a double al ingresar datos
+//        
+//        System.out.print("ingrese operaciòn: ");
+//        String operacion = lector.next(); //no es necesario parsear, se ingresa string
+//        
+//
+//        switch (operacion) {
+//            case "+":
+//                System.out.println("n1 + n2 = " + (n1+n2));    
+//                break;
+//            
+//            
+//            case "-":
+//                System.out.println("n1 - n2 = " + (n1-n2));    
+//                break;
+//            
+//            
+//            case "*":
+//                System.out.println("n1 * n2 = " + n1*n2);    
+//                break;
+//            
+//            
+//            case "/":
+//                System.out.println("n1 / n2 = " + n1/n2);    
+//                break;
+//            default:
+//                
+//                System.out.println("Operador no vàlido!");
+//                break; //agregar ùltimo break
+//                
+//        }
+//        System.out.println("while ");
+//        int contador =1;
+//        while (contador <= 5)
+//            
+//        {
+//            
+//            System.out.println("contador = " + contador);
+//            contador ++;
+//            
+//        }
         
-        System.out.print("ingrese segundo operando: ");
-        double n2 = lector.nextDouble(); //es necesario parsear string a double al ingresar datos
+//        System.out.println("do-while");
+//        int contador2 = 1;
+//        
+//        do 
+//        {
+//            System.out.println("contador2 = " + contador2);
+//            contador2 ++;
+//            
+//        } while (contador2 <= 3);
         
-        System.out.print("ingrese operaciòn: ");
-        String operacion = lector.next(); //no es necesario parsear, se ingresa string
+    
+        System.out.println("for");
         
-
-        switch (operacion) {
-            case "+":
-                System.out.println("n1 + n2 = " + (n1+n2));    
-                break;
+        for (int i = 0; i < 100; i++) {
             
+            System.out.println("No debo");
             
-            case "-":
-                System.out.println("n1 - n2 = " + (n1-n2));    
-                break;
-            
-            
-            case "*":
-                System.out.println("n1 * n2 = " + n1*n2);    
-                break;
-            
-            
-            case "/":
-                System.out.println("n1 / n2 = " + n1/n2);    
-                break;
-            default:
-                
-                System.out.println("Operador no vàlido!");
-                break; //agregar ùltimo break
-                
         }
-        
-        
+        System.out.println("fin ");
+    
     }
+    
+        
     
 }
