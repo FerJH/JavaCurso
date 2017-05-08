@@ -1,0 +1,60 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package estructuras;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author educacionit
+ */
+public class Programa {
+    
+    public static void main(String[] args) {
+        
+        
+        
+        Scanner lector = new Scanner(System.in);
+        System.out.print("ingrese primer operando: ");
+        double n1 = lector.nextDouble();
+        
+        System.out.print("ingrese segundo operando: ");
+        double n2 = lector.nextDouble(); //es necesario parsear string a double al ingresar datos
+        
+        System.out.print("ingrese operaciòn: ");
+        String operacion = lector.next(); //no es necesario parsear, se ingresa string
+        
+
+        switch (operacion) {
+            case "+":
+                System.out.println("n1 + n2 = " + (n1+n2));    
+                break;
+            
+            
+            case "-":
+                System.out.println("n1 - n2 = " + (n1-n2));    
+                break;
+            
+            
+            case "*":
+                System.out.println("n1 * n2 = " + n1*n2);    
+                break;
+            
+            
+            case "/":
+                System.out.println("n1 / n2 = " + n1/n2);    
+                break;
+            default:
+                
+                System.out.println("Operador no vàlido!");
+                break; //agregar ùltimo break
+                
+        }
+        
+        
+    }
+    
+}
